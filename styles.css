@@ -99,3 +99,60 @@ img {
   gap: 10px;
   font-size: 24px;
 }
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  color: seashell;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*s2xko9*_gcl_aw*R0NMLjE3MTg0MzA5NTEuQ2owS0NRandwTnV5QmhDdUFSSXNBTkpxTDlPd2ViOVozVGNGc2NpQVNrMlktNkI4LXQzdE9vUG9TV0N6TnZhMWN6V0Q1aEI5WEhySG1nTWFBcjdoRUFMd193Y0I.*_gcl_au*MTA1MDE3MDkzMS4xNzE2NTU1ODA5*_ga*ODkwNzg4MDIyLjE3MTY4MTE1Njk.*_ga_3LRZM6TM9L*MTcxODQzMDk0MC4zMS4xLjE3MTg0MzA5NTEuMC4wLjA.");
+}
+
+.locations h2 {
+  font-size: 32px;
+  opacity: 0.9;
+}
+
+
+.locations-cards-container {
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.locations-card {
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  opacity: 1;
+}
+
+footer {
+  color: seashell;
+  font-size: 24px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+footer p {
+  margin-left: 20px;
+  text-align: left;
+}
